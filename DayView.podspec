@@ -9,7 +9,8 @@
 Pod::Spec.new do |s|
   s.name             = 'DayView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of DayView.'
+  s.summary          = 'A view which displays days and corresponding date in a collection view below it with infinite scroll.'
+s.swift_version      = '4.2'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,17 +19,17 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+A view which displays days and corresponding date in a collection view below it with infinite scroll, paging is enabled and only fetches data as you scroll through.
                        DESC
 
-  s.homepage         = 'https://github.com/NaveenMagatala/DayView'
+  s.homepage         = 'https://github.com/SaiNaveenMagatala/DayView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'NaveenMagatala' => 'naveenmagatala@gmail.com' }
-  s.source           = { :git => 'https://github.com/NaveenMagatala/DayView.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/SaiNaveenMagatala/DayView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '11.0'
 
   s.source_files = 'DayView/Classes/**/*'
   
@@ -37,6 +38,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
