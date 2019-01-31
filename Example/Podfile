@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DayView_Example' do
+  pod 'DayView', :path => '../'
+
+  target 'DayView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
