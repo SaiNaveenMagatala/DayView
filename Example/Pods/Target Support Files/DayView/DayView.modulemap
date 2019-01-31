@@ -1,0 +1,6 @@
+framework module DayView {
+  umbrella header "DayView-umbrella.h"
+
+  export *
+  module * { export * }
+}

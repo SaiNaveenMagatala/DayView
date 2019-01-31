@@ -1,0 +1,16 @@
+PODS:
+  - DayView (0.1.0)
+
+DEPENDENCIES:
+  - DayView (from `../`)
+
+EXTERNAL SOURCES:
+  DayView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DayView: ea677dc4838860aa778191f1c3979e2ff0f63120
+
+PODFILE CHECKSUM: c42b5753c6b4c55d5edb028cac3b2ba62dc9fa59
+
+COCOAPODS: 1.5.0
