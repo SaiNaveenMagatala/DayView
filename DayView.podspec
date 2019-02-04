@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DayView'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A view which displays days and corresponding date in a collection view below it with infinite scroll.'
 s.swift_version      = '4.2'
 
