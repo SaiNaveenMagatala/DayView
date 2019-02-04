@@ -1,9 +1,10 @@
 {
   "name": "DayView",
   "version": "0.1.0",
-  "summary": "A short description of DayView.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/NaveenMagatala/DayView",
+  "summary": "A view which displays days and corresponding date in a collection view below it with infinite scroll.",
+  "swift_version": "4.2",
+  "description": "A view which displays days and corresponding date in a collection view below it with infinite scroll, paging is enabled and only fetches data as you scroll through.",
+  "homepage": "https://github.com/SaiNaveenMagatala/DayView",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +13,12 @@
     "NaveenMagatala": "naveenmagatala@gmail.com"
   },
   "source": {
-    "git": "https://github.com/NaveenMagatala/DayView.git",
+    "git": "https://github.com/SaiNaveenMagatala/DayView.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "11.0"
   },
-  "source_files": "DayView/Classes/**/*"
+  "source_files": "DayView/Classes/**/*",
+  "frameworks": "UIKit"
 }

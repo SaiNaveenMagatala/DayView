@@ -9,14 +9,21 @@
 /* Begin PBXBuildFile section */
 		0295606651E22F347B562B1C76250B65 /* Pods-DayView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AD656A9373B5C54C27525DC8857AA0BC /* Pods-DayView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0442111C6AE403BB88CF711CE9756FDE /* Pods-DayView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE10DEA605F596332FBA07BD5E633D1 /* Pods-DayView_Tests-dummy.m */; };
-		06CD80A3C313FE6440A5819AD6023DAE /* DayView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 134C04A08F6508D3816235D9F27C6EAA /* DayView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0B6AF1BA19FDB75B4D6A238EBCEABDAF /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104750699CDA64C5FF19E794DEFAA1E6 /* ReplaceMe.swift */; };
+		06002F418FA8B25E627A7EFDA8C5E942 /* DayView.xib in Sources */ = {isa = PBXBuildFile; fileRef = D1DCA6647FCB60D811A753D6EF5E08E1 /* DayView.xib */; };
+		0ED5A4EFAB7638A8CE6A4FA09F7D03C7 /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C69A5F41F4AC87FB6353486B2009C5 /* NibLoadable.swift */; };
+		34340F8DD85B0476D29C775F118639DA /* CollectionViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 67D199DC38551342C023D5C54DC9812B /* CollectionViewCell.xib */; };
 		390BA9B650F89A786D7D32A25BC448F6 /* Pods-DayView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ABC7ED4BA92DBC0640A6D94B2C3F9992 /* Pods-DayView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6287DFE62416F96756BFCA15D69E5892 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		9FDCAB638B37A28E4267E2F724AD7A6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		CADD9E8A53070E5A4D3A724E3EC82472 /* DayView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD81832FD5C73C03B9B8F47F6990F8BB /* DayView-dummy.m */; };
-		D48DA290F0FE8A7C89E7EDA7581867A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		3BC4D6D2E0801CE018634DC9236386FC /* DayView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C0069E8482C4A3AEED39D882EA1595 /* DayView-dummy.m */; };
+		5B32BF8E3EE1D1A843951CBCA8714930 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		6287DFE62416F96756BFCA15D69E5892 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		BD0A860FB5FFC52540A6413542A0680E /* DayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B404B29498AF7FDDFB0BEFF034FF9A0 /* DayView.swift */; };
+		D48DA290F0FE8A7C89E7EDA7581867A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		D7F73F950B0119180281D9C5B8E620A1 /* Pods-DayView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 825BBD7D539EFD2DF799BF2AD607C2CC /* Pods-DayView_Example-dummy.m */; };
+		E0195EECADA0759440B871A3F30B172F /* DayView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 18F82D77E72DF88F0B25B63C43ABA5EC /* DayView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F840183722039EB70087879C /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F840183622039EB70087879C /* CollectionViewCell.swift */; };
+		F84018392203A7C30087879C /* DateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84018382203A7C30087879C /* DateController.swift */; };
+		F840183B2203A7FC0087879C /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F840183A2203A7FC0087879C /* Date+Extensions.swift */; };
+		FC6FD78F2D9066E63FB8FE0289CF28F2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,63 +38,71 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 04C7A4A2D189F43A54A247E380512E87;
+			remoteGlobalIDString = 4252AC8162E8D4CE534977F3739838EA;
 			remoteInfo = DayView;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0C3422379B95D60054BB00E222066BFF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CE10DEA605F596332FBA07BD5E633D1 /* Pods-DayView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DayView_Tests-dummy.m"; sourceTree = "<group>"; };
-		104750699CDA64C5FF19E794DEFAA1E6 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = DayView/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		134C04A08F6508D3816235D9F27C6EAA /* DayView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DayView-umbrella.h"; sourceTree = "<group>"; };
+		18F82D77E72DF88F0B25B63C43ABA5EC /* DayView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DayView-umbrella.h"; sourceTree = "<group>"; };
 		26BC5020671ED7703FFCF67D64AB53AD /* Pods-DayView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DayView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2B5C7A7A53A940485C4FC9DFC76943FF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2EDF05BBA8D939463C5A57CD40E517AE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2B8B526A0C5EA80A77EAB1E65449075B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3C27AB80DC56EF26AF599A271A6B3566 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		4040A9E52749CDF8FD2F14D304FECAF9 /* Pods-DayView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DayView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		417E34ABBE7C2FF76071D92E295A045E /* Pods-DayView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DayView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		41CD8C55B81D2D9564675A2E52596FFD /* DayView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DayView.modulemap; sourceTree = "<group>"; };
 		449655408DC5B079A2EF54C4C19B2A5B /* Pods-DayView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DayView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		47B3A52409C4F40E6C8E650F8CF87F32 /* DayView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = DayView.podspec; sourceTree = "<group>"; };
+		4CB537631F435ACA2E45FBDEAD1B537F /* DayView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DayView.modulemap; sourceTree = "<group>"; };
 		540D6BFFD6CE4739DCB87AFEE8387369 /* Pods_DayView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DayView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		55C7453A81A44A466544E5705CC5813F /* Pods-DayView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DayView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		58E7ED5A410B994DA5E63A164E93D437 /* Pods-DayView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DayView_Example-resources.sh"; sourceTree = "<group>"; };
 		5CB771BE68AD78AA3ED981F2C4A109DF /* Pods-DayView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DayView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		5FB164C3FB2B56EF9205BD7C5028B4A5 /* Pods-DayView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DayView_Example.modulemap"; sourceTree = "<group>"; };
-		60064CC52B7DAAED76D83EFD18B85B15 /* DayView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DayView.xcconfig; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		67D199DC38551342C023D5C54DC9812B /* CollectionViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = CollectionViewCell.xib; path = DayView/Classes/CollectionViewCell.xib; sourceTree = "<group>"; };
+		6D8E462EC7A30CE820D92F894E320D25 /* DayView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DayView-prefix.pch"; sourceTree = "<group>"; };
 		702C0F1AD1A90E30FD2F0827DE394837 /* DayView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DayView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71C69A5F41F4AC87FB6353486B2009C5 /* NibLoadable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NibLoadable.swift; path = DayView/Classes/NibLoadable.swift; sourceTree = "<group>"; };
+		7B404B29498AF7FDDFB0BEFF034FF9A0 /* DayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DayView.swift; path = DayView/Classes/DayView.swift; sourceTree = "<group>"; };
 		825BBD7D539EFD2DF799BF2AD607C2CC /* Pods-DayView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DayView_Example-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9B93582E39ACF235CF1A754F05B8B07C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D86E61853BCAD401CC19C71F5CB755A /* Pods-DayView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DayView_Tests.modulemap"; sourceTree = "<group>"; };
+		A61F632C2F0F06E2BEA2080ADC9BCD5F /* DayView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = DayView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AB9AFBB7101E8EC523A659910C9A0537 /* Pods-DayView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DayView_Tests-resources.sh"; sourceTree = "<group>"; };
 		ABC7ED4BA92DBC0640A6D94B2C3F9992 /* Pods-DayView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DayView_Example-umbrella.h"; sourceTree = "<group>"; };
 		AD656A9373B5C54C27525DC8857AA0BC /* Pods-DayView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DayView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		ADFFE10D9858CE6269F4F31B7FE7C098 /* Pods_DayView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DayView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF170EE64603A201517DF6BDB2FF8325 /* Pods-DayView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DayView_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		BD81832FD5C73C03B9B8F47F6990F8BB /* DayView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DayView-dummy.m"; sourceTree = "<group>"; };
+		AFDF8136B2B9AF19B362F888BF97D905 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		C489E0CA17E3398ACD869589F894016D /* Pods-DayView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DayView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C665D3FCEEB2AE266C6AD19B9B4C3CC1 /* DayView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DayView-prefix.pch"; sourceTree = "<group>"; };
+		C8A6913F129806FE79E0AAD6ADC9111F /* DayView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DayView.xcconfig; sourceTree = "<group>"; };
+		D1DCA6647FCB60D811A753D6EF5E08E1 /* DayView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DayView.xib; path = DayView/Classes/DayView.xib; sourceTree = "<group>"; };
+		D3C0069E8482C4A3AEED39D882EA1595 /* DayView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DayView-dummy.m"; sourceTree = "<group>"; };
 		D560C0192DBD01A3A7E0B3A6FFCC961B /* Pods-DayView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DayView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D648483391B9AEAF8C568DA3B2367DDF /* Pods-DayView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DayView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		EE6BCDC8AF2A8B113EAF24CF14A937E4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F840183622039EB70087879C /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CollectionViewCell.swift; path = DayView/Classes/CollectionViewCell.swift; sourceTree = "<group>"; };
+		F84018382203A7C30087879C /* DateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DateController.swift; path = DayView/Classes/DateController.swift; sourceTree = "<group>"; };
+		F840183A2203A7FC0087879C /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Date+Extensions.swift"; path = "DayView/Classes/Date+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		5C90D85AB3BAC4A9F545D0036E3745D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B32BF8E3EE1D1A843951CBCA8714930 /* Foundation.framework in Frameworks */,
+				FC6FD78F2D9066E63FB8FE0289CF28F2 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8961638C7DD6222373A336A28A354A9F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D48DA290F0FE8A7C89E7EDA7581867A4 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B5B642E64AB848C4AE2E05DEA4772D07 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9FDCAB638B37A28E4267E2F724AD7A6F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,16 +117,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		02F2A22EEEFE29CFBAEC9DA8E8A763D8 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				47B3A52409C4F40E6C8E650F8CF87F32 /* DayView.podspec */,
-				EE6BCDC8AF2A8B113EAF24CF14A937E4 /* LICENSE */,
-				2EDF05BBA8D939463C5A57CD40E517AE /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		39B71B39BE5C88D434ED007D5A398588 /* Pods-DayView_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -130,6 +135,23 @@
 			path = "Target Support Files/Pods-DayView_Example";
 			sourceTree = "<group>";
 		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		460514133587F795A51A5086EF3B4882 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -140,26 +162,37 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		4764A4A4544DB69CD89DF109631304B6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CB537631F435ACA2E45FBDEAD1B537F /* DayView.modulemap */,
+				C8A6913F129806FE79E0AAD6ADC9111F /* DayView.xcconfig */,
+				D3C0069E8482C4A3AEED39D882EA1595 /* DayView-dummy.m */,
+				6D8E462EC7A30CE820D92F894E320D25 /* DayView-prefix.pch */,
+				18F82D77E72DF88F0B25B63C43ABA5EC /* DayView-umbrella.h */,
+				AFDF8136B2B9AF19B362F888BF97D905 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DayView";
+			sourceTree = "<group>";
+		};
+		755AD8E324721F80A76D2792D87C76EC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AEB47928646207BFE3BC665B2405333B /* DayView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				F5953DEDD4C272CFC62C65D071C1110A /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				755AD8E324721F80A76D2792D87C76EC /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				460514133587F795A51A5086EF3B4882 /* Products */,
 				E80E1AD221F92C0F7026E4DA42F5E939 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		8043898315D9E2314040D9EF877528B2 /* DayView */ = {
-			isa = PBXGroup;
-			children = (
-				104750699CDA64C5FF19E794DEFAA1E6 /* ReplaceMe.swift */,
-				02F2A22EEEFE29CFBAEC9DA8E8A763D8 /* Pod */,
-				EA569CC674121A411E821C44C5E7955A /* Support Files */,
-			);
-			name = DayView;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		A6F5F30694B71E389CA770FBA42A4C3E /* Pods-DayView_Tests */ = {
@@ -180,20 +213,31 @@
 			path = "Target Support Files/Pods-DayView_Tests";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		AEB47928646207BFE3BC665B2405333B /* DayView */ = {
 			isa = PBXGroup;
 			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+				67D199DC38551342C023D5C54DC9812B /* CollectionViewCell.xib */,
+				F840183622039EB70087879C /* CollectionViewCell.swift */,
+				7B404B29498AF7FDDFB0BEFF034FF9A0 /* DayView.swift */,
+				D1DCA6647FCB60D811A753D6EF5E08E1 /* DayView.xib */,
+				71C69A5F41F4AC87FB6353486B2009C5 /* NibLoadable.swift */,
+				E5846B51EB9385C96AF0AE2EBFAEE5A4 /* Pod */,
+				4764A4A4544DB69CD89DF109631304B6 /* Support Files */,
+				F84018382203A7C30087879C /* DateController.swift */,
+				F840183A2203A7FC0087879C /* Date+Extensions.swift */,
 			);
-			name = Frameworks;
+			name = DayView;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+		E5846B51EB9385C96AF0AE2EBFAEE5A4 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+				A61F632C2F0F06E2BEA2080ADC9BCD5F /* DayView.podspec */,
+				3C27AB80DC56EF26AF599A271A6B3566 /* LICENSE */,
+				2B8B526A0C5EA80A77EAB1E65449075B /* README.md */,
 			);
-			name = iOS;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		E80E1AD221F92C0F7026E4DA42F5E939 /* Targets Support Files */ = {
@@ -205,36 +249,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		EA569CC674121A411E821C44C5E7955A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				41CD8C55B81D2D9564675A2E52596FFD /* DayView.modulemap */,
-				60064CC52B7DAAED76D83EFD18B85B15 /* DayView.xcconfig */,
-				BD81832FD5C73C03B9B8F47F6990F8BB /* DayView-dummy.m */,
-				C665D3FCEEB2AE266C6AD19B9B4C3CC1 /* DayView-prefix.pch */,
-				134C04A08F6508D3816235D9F27C6EAA /* DayView-umbrella.h */,
-				0C3422379B95D60054BB00E222066BFF /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/DayView";
-			sourceTree = "<group>";
-		};
-		F5953DEDD4C272CFC62C65D071C1110A /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8043898315D9E2314040D9EF877528B2 /* DayView */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		444355BF431AAC3522247EA3F5B2100A /* Headers */ = {
+		BABABC4FBDE8AD543D7861A6AE1ABD88 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06CD80A3C313FE6440A5819AD6023DAE /* DayView-umbrella.h in Headers */,
+				E0195EECADA0759440B871A3F30B172F /* DayView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,23 +279,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		04C7A4A2D189F43A54A247E380512E87 /* DayView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 895D4375B043C8E39D1D0BDA69FA5562 /* Build configuration list for PBXNativeTarget "DayView" */;
-			buildPhases = (
-				D12F39F8B421778AE4FE1018B5055904 /* Sources */,
-				B5B642E64AB848C4AE2E05DEA4772D07 /* Frameworks */,
-				444355BF431AAC3522247EA3F5B2100A /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = DayView;
-			productName = DayView;
-			productReference = 702C0F1AD1A90E30FD2F0827DE394837 /* DayView.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		2A60DD814CF1C4938D78FA764F583ABF /* Pods-DayView_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3246B55C9EC433461875543C7EE70376 /* Build configuration list for PBXNativeTarget "Pods-DayView_Example" */;
@@ -290,6 +295,23 @@
 			name = "Pods-DayView_Example";
 			productName = "Pods-DayView_Example";
 			productReference = 540D6BFFD6CE4739DCB87AFEE8387369 /* Pods_DayView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4252AC8162E8D4CE534977F3739838EA /* DayView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 001B002565624E55FEF57E01187363B5 /* Build configuration list for PBXNativeTarget "DayView" */;
+			buildPhases = (
+				28025BF24C1096343CE7EFA7EA729BB5 /* Sources */,
+				5C90D85AB3BAC4A9F545D0036E3745D5 /* Frameworks */,
+				BABABC4FBDE8AD543D7861A6AE1ABD88 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DayView;
+			productName = DayView;
+			productReference = 702C0F1AD1A90E30FD2F0827DE394837 /* DayView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		DA194F18AF4E4B4326CA5FF3E4B05C70 /* Pods-DayView_Tests */ = {
@@ -317,7 +339,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 1010;
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -331,7 +353,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				04C7A4A2D189F43A54A247E380512E87 /* DayView */,
+				4252AC8162E8D4CE534977F3739838EA /* DayView */,
 				2A60DD814CF1C4938D78FA764F583ABF /* Pods-DayView_Example */,
 				DA194F18AF4E4B4326CA5FF3E4B05C70 /* Pods-DayView_Tests */,
 			);
@@ -339,20 +361,26 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		28025BF24C1096343CE7EFA7EA729BB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34340F8DD85B0476D29C775F118639DA /* CollectionViewCell.xib in Sources */,
+				F84018392203A7C30087879C /* DateController.swift in Sources */,
+				F840183B2203A7FC0087879C /* Date+Extensions.swift in Sources */,
+				3BC4D6D2E0801CE018634DC9236386FC /* DayView-dummy.m in Sources */,
+				BD0A860FB5FFC52540A6413542A0680E /* DayView.swift in Sources */,
+				F840183722039EB70087879C /* CollectionViewCell.swift in Sources */,
+				06002F418FA8B25E627A7EFDA8C5E942 /* DayView.xib in Sources */,
+				0ED5A4EFAB7638A8CE6A4FA09F7D03C7 /* NibLoadable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		330595B27AE2E8957FD3681C581181BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D7F73F950B0119180281D9C5B8E620A1 /* Pods-DayView_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D12F39F8B421778AE4FE1018B5055904 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CADD9E8A53070E5A4D3A724E3EC82472 /* DayView-dummy.m in Sources */,
-				0B6AF1BA19FDB75B4D6A238EBCEABDAF /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,7 +398,7 @@
 		6A4CD29C720A8887351277A31C9B4737 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DayView;
-			target = 04C7A4A2D189F43A54A247E380512E87 /* DayView */;
+			target = 4252AC8162E8D4CE534977F3739838EA /* DayView */;
 			targetProxy = 6691F52974A80192468ED830C1608F13 /* PBXContainerItemProxy */;
 		};
 		6D04B74BB95EF9B5DA92C9C183B5C336 /* PBXTargetDependency */ = {
@@ -382,11 +410,106 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		233D3156AB0D4408D78CD65728B97ACF /* Release */ = {
+		08638A96A528B1EC32DE62F8A728389D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4040A9E52749CDF8FD2F14D304FECAF9 /* Pods-DayView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		1954E0488EC03573BF2F2ACC11BC50F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D560C0192DBD01A3A7E0B3A6FFCC961B /* Pods-DayView_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DayView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DayView_Example/Pods-DayView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		21249B4AC86898B4650D43EBBAC623BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D648483391B9AEAF8C568DA3B2367DDF /* Pods-DayView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -398,7 +521,77 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-DayView_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DayView_Tests/Pods-DayView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		391736C7E33811EA8621332DBDA19C81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 449655408DC5B079A2EF54C4C19B2A5B /* Pods-DayView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DayView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DayView_Example/Pods-DayView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		454B4B1A681F95CCDCA311B8797569B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4040A9E52749CDF8FD2F14D304FECAF9 /* Pods-DayView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DayView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-DayView_Tests/Pods-DayView_Tests.modulemap";
@@ -416,72 +609,7 @@
 			};
 			name = Release;
 		};
-		7F3821750EC8A84D5CFA047D1E9AFBA0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D648483391B9AEAF8C568DA3B2367DDF /* Pods-DayView_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-DayView_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DayView_Tests/Pods-DayView_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		863DD5FE8B42DE84FA1198A23E217077 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 60064CC52B7DAAED76D83EFD18B85B15 /* DayView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DayView/DayView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DayView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DayView/DayView.modulemap";
-				PRODUCT_MODULE_NAME = DayView;
-				PRODUCT_NAME = DayView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+		9DAE5233986C01ADB6E67169C53A3FD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -534,7 +662,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -544,139 +672,11 @@
 			};
 			name = Debug;
 		};
-		B167BA4ED0EDDF8EC517982F4A037A04 /* Debug */ = {
+		A1FE691B074EAC7313E6B24FCB9ED674 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D560C0192DBD01A3A7E0B3A6FFCC961B /* Pods-DayView_Example.debug.xcconfig */;
+			baseConfigurationReference = C8A6913F129806FE79E0AAD6ADC9111F /* DayView.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-DayView_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DayView_Example/Pods-DayView_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		E7A0F448B71E55012E673F25EB46FAE8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 449655408DC5B079A2EF54C4C19B2A5B /* Pods-DayView_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-DayView_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DayView_Example/Pods-DayView_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E9CC60D60865375190862C1E1BD0C49D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 60064CC52B7DAAED76D83EFD18B85B15 /* DayView.xcconfig */;
-			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -689,7 +689,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/DayView/DayView-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/DayView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/DayView/DayView.modulemap";
 				PRODUCT_MODULE_NAME = DayView;
@@ -706,14 +706,56 @@
 			};
 			name = Release;
 		};
+		D18CAA750480DC968217507C08A1AC3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8A6913F129806FE79E0AAD6ADC9111F /* DayView.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DayView/DayView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DayView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DayView/DayView.modulemap";
+				PRODUCT_MODULE_NAME = DayView;
+				PRODUCT_NAME = DayView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		001B002565624E55FEF57E01187363B5 /* Build configuration list for PBXNativeTarget "DayView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D18CAA750480DC968217507C08A1AC3B /* Debug */,
+				A1FE691B074EAC7313E6B24FCB9ED674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
-				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+				9DAE5233986C01ADB6E67169C53A3FD2 /* Debug */,
+				08638A96A528B1EC32DE62F8A728389D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -721,8 +763,8 @@
 		3246B55C9EC433461875543C7EE70376 /* Build configuration list for PBXNativeTarget "Pods-DayView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B167BA4ED0EDDF8EC517982F4A037A04 /* Debug */,
-				E7A0F448B71E55012E673F25EB46FAE8 /* Release */,
+				1954E0488EC03573BF2F2ACC11BC50F9 /* Debug */,
+				391736C7E33811EA8621332DBDA19C81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -730,17 +772,8 @@
 		3B5EC8C28A7F8E0DBF4AF2D98ADA0EB8 /* Build configuration list for PBXNativeTarget "Pods-DayView_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7F3821750EC8A84D5CFA047D1E9AFBA0 /* Debug */,
-				233D3156AB0D4408D78CD65728B97ACF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		895D4375B043C8E39D1D0BDA69FA5562 /* Build configuration list for PBXNativeTarget "DayView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				863DD5FE8B42DE84FA1198A23E217077 /* Debug */,
-				E9CC60D60865375190862C1E1BD0C49D /* Release */,
+				21249B4AC86898B4650D43EBBAC623BE /* Debug */,
+				454B4B1A681F95CCDCA311B8797569B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

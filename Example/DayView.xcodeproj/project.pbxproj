@@ -46,7 +46,7 @@
 		66AB05939FDB6735508A3DDF /* Pods-DayView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DayView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DayView_Example/Pods-DayView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6958DDD07D5EEB48ACDE8506 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		DBBA2724A0C45882CC4B3469 /* Pods-DayView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DayView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-DayView_Example/Pods-DayView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		FD145DD30A3CF40CCF885E1D /* DayView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DayView.podspec; path = ../DayView.podspec; sourceTree = "<group>"; };
+		FD145DD30A3CF40CCF885E1D /* DayView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DayView.podspec; path = ../DayView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

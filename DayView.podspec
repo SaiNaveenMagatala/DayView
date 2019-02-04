@@ -19,7 +19,10 @@ s.swift_version      = '4.2'
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-A view which displays days and corresponding date in a collection view below it with infinite scroll, paging is enabled and only fetches data as you scroll through.
+* A view which displays days and corresponding date in a collection view below it with infinite scroll, paging is enabled and only fetches data as you scroll through.
+* As the view loads the collection view fetches three weeks current week, previous week and the next week
+and fetches later weeks as we scroll through.
+* Initially the collection view scrolls to the current week and highlights current day.
                        DESC
 
   s.homepage         = 'https://github.com/SaiNaveenMagatala/DayView'
